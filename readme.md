@@ -30,14 +30,17 @@ void main() {
   print(alamatSaya);
 
   //   Final
+  
   final String yourNim = '1124160069';
   print(yourNim);
 
   // Const
+  
   const String yourKampus = "Global Institute";
   print(yourKampus);
 
   //   Late Modifier
+  
   late String myUsername;
 
   void setUsername() {
@@ -46,12 +49,15 @@ void main() {
   }
 
   //   Type Data
+  
   //   String
+  
   String namaSaya = 'Fahry';
   String namaProdi = 'Teknik Informatika';
   print('Nama saya $namaSaya, Asal Prodi $namaProdi');
 
   //   Integer
+  
   int hargaApel = 15000;
   int jumlahApel = 10;
   int totalHarga = hargaApel * jumlahApel;
@@ -59,6 +65,7 @@ void main() {
   print('Total Harga: $totalHarga');
 
   // Double
+  
   double nilaiMTK = 90.5;
   double nilaiIPA = 85.7;
   double nilaiAgama = 89.8;
@@ -66,6 +73,7 @@ void main() {
   print(nilaiMTK + nilaiIPA + nilaiAgama);
 
   // Num
+  
   num rating = 4;
   print(rating);
 
@@ -73,6 +81,7 @@ void main() {
   print(rating);
 
   // Bool
+  
   bool umurCukup = true;
   bool memilikiKTP = false;
 
@@ -81,6 +90,7 @@ void main() {
   print(bolehMasuk);
 
   // List
+  
   List<String> buah = ['Mangga', 'Jeruk Bali', 'Mengkudu', 'Lontar'];
   print(buah[1] + " " + "dan" + " " + buah[2]);
 
@@ -89,11 +99,13 @@ void main() {
   print("Ini adalah : " + " " + buah[4]);
 
   // Set
+  
   Set<String> nimMahasigma = {'1124160069', '1124160001', '1124160069'};
   print(nimMahasigma);
   //   Jadi kalau set itu bedanya sama list data tidak bisa duplikat jika sudah ada 1 maka tidak bisa ditambahkan lagi.
 
   // Map
+  
   Map<String, dynamic> karyawanPTXYZ = {
     'id': 1,
     'nik': 'MGR26001',
@@ -106,7 +118,9 @@ void main() {
   print("Bagian:" + " " + karyawanPTXYZ['bagian']);
 
   // Object
+  
   // Tipe 1
+  
   Object dataLaptop1 = 'Laptop Asus ROG Zephyrus';
   dataLaptop1 = 30000000;
   dataLaptop1 = true;
@@ -114,6 +128,7 @@ void main() {
   print(dataLaptop1); //true
   
   // Tipe 2
+  
   List<Object> dataLaptop2 = [
     'Laptop Lenovo LOQ',
     20000000,
@@ -123,13 +138,16 @@ void main() {
   print(dataLaptop2); //[Laptop Lenovo LOQ, 20000000, true] --> Karena berbentuk   list 
   
   //Dynamic
+  
   dynamic nilaiFahry = 80;
   nilaiFahry = 90.5;
   nilaiFahry = 'Sembilan puluh';
   print(nilaiFahry); //Sembilan puluh --> karena dynamic mengambil nilai terakhir
   
 //   dynamic nilaiBudi = 80;
+
 //   nilaiBudi = 90.5;
+
 //   print(nilaiBudi.toUpperCase());
   
   //Error karena angka / integer tidak bisa di uppercase
