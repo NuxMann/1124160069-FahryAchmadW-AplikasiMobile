@@ -1,10 +1,17 @@
 void main() {
+
   print("Halo Brokk");
+  
   print('Yuhuuu');
+  
   String? yourUsername = "XLinux";
+  
   print(yourUsername);
+  
   int yourAge = 22;
+  
   print(yourAge); 
+  
 
   //   Nilai ini tidak di rubah jika sudah di definisikan
 
