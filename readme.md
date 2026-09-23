@@ -26,24 +26,29 @@ void main() {
   //    print (yourAge);
 
   yourUsername = null;
+  
   print(yourUsername);
 
   String? alamat;
+  
   alamat = "";
 
   alamat = null;
 
   String alamatSaya = alamat ?? 'Bukan Dari Konoha';
+  
   print(alamatSaya);
 
   //   Final
   
   final String yourNim = '1124160069';
+  
   print(yourNim);
 
   // Const
   
   const String yourKampus = "Global Institute";
+  
   print(yourKampus);
 
   //   Late Modifier
@@ -52,6 +57,7 @@ void main() {
 
   void setUsername() {
     myUsername = "Fahry Achmad";
+    
     print(setUsername);
   }
 
@@ -60,13 +66,17 @@ void main() {
   //   String
   
   String namaSaya = 'Fahry';
+  
   String namaProdi = 'Teknik Informatika';
+  
   print('Nama saya $namaSaya, Asal Prodi $namaProdi');
 
   //   Integer
   
   int hargaApel = 15000;
+  
   int jumlahApel = 10;
+  
   int totalHarga = hargaApel * jumlahApel;
 
   print('Total Harga: $totalHarga');
@@ -74,7 +84,9 @@ void main() {
   // Double
   
   double nilaiMTK = 90.5;
+  
   double nilaiIPA = 85.7;
+  
   double nilaiAgama = 89.8;
 
   print(nilaiMTK + nilaiIPA + nilaiAgama);
@@ -82,14 +94,17 @@ void main() {
   // Num
   
   num rating = 4;
+  
   print(rating);
 
   rating = 4.7;
+  
   print(rating);
 
   // Bool
   
   bool umurCukup = true;
+  
   bool memilikiKTP = false;
 
   bool bolehMasuk = umurCukup && memilikiKTP;
@@ -99,6 +114,7 @@ void main() {
   // List
   
   List<String> buah = ['Mangga', 'Jeruk Bali', 'Mengkudu', 'Lontar'];
+  
   print(buah[1] + " " + "dan" + " " + buah[2]);
 
   buah.add("Pisang Jawa");
@@ -108,7 +124,9 @@ void main() {
   // Set
   
   Set<String> nimMahasigma = {'1124160069', '1124160001', '1124160069'};
+  
   print(nimMahasigma);
+  
   //   Jadi kalau set itu bedanya sama list data tidak bisa duplikat jika sudah ada 1 maka tidak bisa ditambahkan lagi.
 
   // Map
